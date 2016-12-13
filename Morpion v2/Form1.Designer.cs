@@ -46,7 +46,6 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.splitter1 = new System.Windows.Forms.Splitter();
             this.lblTitre = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -254,14 +253,6 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.ClicCase);
             // 
-            // splitter1
-            // 
-            this.splitter1.Location = new System.Drawing.Point(0, 0);
-            this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(3, 430);
-            this.splitter1.TabIndex = 26;
-            this.splitter1.TabStop = false;
-            // 
             // lblTitre
             // 
             this.lblTitre.AutoSize = true;
@@ -282,7 +273,6 @@
             this.Controls.Add(this.lblNbManches);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.splitter1);
             this.Controls.Add(this.lblTitre);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -323,7 +313,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Splitter splitter1;
         private System.Windows.Forms.Label lblTitre;
     }
 }
